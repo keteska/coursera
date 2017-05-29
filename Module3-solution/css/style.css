@@ -1,0 +1,76 @@
+body {
+  font-size: 16px;
+  /*color: #fff; */
+  background-color: #ffece6;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+/** HEADER **/
+.navbar, .navbar-header {
+	min-height: 80px;
+}
+
+#header-nav {
+  background-color: #8fc190;
+  border-radius: 0;
+  border: 1px solid #9ea59d;
+}
+
+.navbar-brand {
+	padding-top: 10px;
+}
+
+.navbar-brand h1, .navbar-brand h1:hover {
+	font-size: 1.5em;
+	text-decoration: none;
+	color: #545454;
+}
+
+.navbar-header button {
+	margin-top: 20px;
+}
+
+.navbar-collapse #nav-list {
+	border-color: #777;
+    background-color: #565656;
+    margin-top: -2px;
+    margin-bottom: -2px;
+}
+
+.nav > li {
+	border-bottom: 1px solid #777;
+}
+
+.nav > li:nth-child(3) {
+	border: 0;
+}
+
+#collapsable-nav li > a {
+	text-align: center;
+	color: #fff;
+	font-weight: 300;
+}
+
+#collapsable-nav li > a:hover {
+	background-color: #3e3a3a;
+}
+
+/****** END HEADER ******/
+
+/** MAIN CONTENT **/
+#main-content > h2 {
+	margin-bottom: 20px;
+}
+
+/** END MAIN CONTENT **/
+
+/** MEDIA **/
+
+@media (max-width: 767px) {
+	.row {
+		margin: 20px 10px;
+	}
+}
+
+
